@@ -1,0 +1,47 @@
+h1, h2, h3{
+    text-align: center;
+    font-weight: 300;
+    margin: 20px;
+    font-size: x-large;
+    color: silver;
+}
+
+nav ul li { 
+    display: inline-block;
+    margin: 30px;
+    background-color: black;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+body {
+    background-image: 
+    url("https://i.pinimg.com/originals/e1/89/da/e189da8d2522f2878ca3602150cf2bfa.jpg");
+}
+img{
+    margin: auto 10px;
+    float: right;
+}
+
+footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+p{
+    margin: 30px;
+    color: violet;
+    font-size: large;
+    background-color:black;
+
+
+
+}
