@@ -7,7 +7,7 @@ while(!userName){
 }
 alert('Hello Dear ' + userName + ' ,I am glad that you are in my web page');
 
-let x = prompt(' Do think I like Math classes ?' , 'answer with yes or no plz' );
+let x = prompt(' Do you think I like Math classes ?' , 'answer with yes or no plz' );
 console.log(x);
 switch(x.toLocaleLowerCase()){
     case 'yes':
@@ -93,7 +93,7 @@ alert(' The correct answer is 11');
 
 
 for(let i = 0; i < 6 ; i++){
-    let q = prompt('a box has 10 balls with different colors pick the red ball by gussing its number', 'plz type any number from 1 to 10? ');
+    let q = prompt('a box has 10 balls with different colors, pick the red ball by gussing its number', 'plz type any number from 1 to 10? ');
     let balls = ['Black', 'Green', 'Red', 'Yellow', 'Grey', 'Brown'];
     if( q == 3 ){
         alert('CORRECT, Here is the ' + balls[2] + ' ball');
