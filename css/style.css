@@ -36,12 +36,19 @@ footer{
   text-align: center;
 
 }
-p{
+#sec {
     margin: 30px;
-    color: violet;
+    color: rgb(250, 2, 250);
     font-size: large;
-    background-color:black;
+    background-color:rgb(24, 2, 102);
+}
+article nav ol{
+    margin: 30px;
+    background-color: rgb(5, 3, 156);
+    color: hotpink;
 
-
-
+}
+#fis {
+    margin: 30px;
+    font-size: large;
 }

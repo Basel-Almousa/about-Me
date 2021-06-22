@@ -75,6 +75,34 @@ switch(n.toLocaleLowerCase()){
         score++;
         break;       
 }
+ 
+for(let i = 0; i < 8 ; i++){
+    let m = prompt('How many countries did I visit ?' , 'plz answer with a number');
+    if( m == 11 ){
+         alert('The answer is correct!');
+         break;
+    }else if(m > 11) {
+         alert('the answer is lower!');
+         i++;
+    }else{ alert('The answer is higher!');
+         i++;
+
+    }
+}
+alert(' The correct answer is 11');
+
+
+for(let i = 0; i < 6 ; i++){
+    let q = prompt('a box has 10 balls with different colors pick the red ball by gussing its number', 'plz type any number from 1 to 10? ');
+    let balls = ['Black', 'Green', 'Red', 'Yellow', 'Grey', 'Brown'];
+    if( q == 3 ){
+        alert('CORRECT, Here is the ' + balls[2] + ' ball');
+        i= i+6;
+    }else {
+        alert('Please pick another one !!');
+    }
+}
+alert('The correct answer is 3');
 alert('Great work ' + ' and your score is ' + score);
 
 let y = confirm('Are you interested in exploration ?');
