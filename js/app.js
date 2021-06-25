@@ -8,7 +8,6 @@ userName = prompt('please enter your name ?');
 alert('Hello Dear ' + userName + ' ,I am glad that you are in my web page');
 function mth_class(){
 let x = prompt(' Do you think I like Math classes ?' , 'answer with yes or no plz' );
-console.log(x);
 switch(x.toLocaleLowerCase()){
 case 'yes':
     case  'y' :
@@ -24,7 +23,6 @@ case 'yes':
 mth_class();
 function fav_car(){
 let c = prompt(' Is BMW my favourite car ?');
-console.log(c);
 switch(c.toLocaleLowerCase()){
     case 'yes':
     case  'y' :
@@ -40,7 +38,6 @@ switch(c.toLocaleLowerCase()){
 fav_car();
 function sign(){
 let v = prompt(' Is black is my signature color ?');
-console.log(v);
 switch(v.toLocaleLowerCase()){
     case 'yes':
     case  'y' :
@@ -57,7 +54,6 @@ sign();
 
 function fav_color(){
 let b = prompt(' Is Red is my best color ?');
-console.log(b);
 switch(b.toLocaleLowerCase()){
     case 'yes':
     case  'y' :
